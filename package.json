@@ -1,0 +1,22 @@
+{
+  "name": "bkservidor",
+  "version": "1.0.0",
+  "description": "Entrega BackEnd servidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acm2021/entregaBKServidor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Acm2021/entregaBKServidor/issues"
+  },
+  "homepage": "https://github.com/Acm2021/entregaBKServidor#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
