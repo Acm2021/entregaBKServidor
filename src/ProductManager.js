@@ -89,7 +89,7 @@ class ProductManager {
     if (indexToReturn !== -1) {
       return indexToReturn;
     } else {
-      console.log("Not found index to delete");
+      //console.log("No se encontró el ID buscado");
       throw new Error("Not found index");
     }
   }
@@ -98,9 +98,10 @@ class ProductManager {
     try {
       const indexProduct = await this.indexById(idBuscado);
       console.log("Found:", this.products[indexProduct]);
-      return indexProduct;
+      return this.products[indexProduct];
     } catch (error) {
-      console.log(error);
+      //console.log(error);
+      throw new Error("Not found index");
     }
   }
 
